@@ -1,0 +1,130 @@
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 64px;
+    color: #152336;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font: 700;
+    font-size: 36px;
+    color: #152336;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font: 900;
+    font-size: 24px;
+    color: #152336;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: #152336;
+}
+
+html {
+    background-color: #FBECE0;
+}
+
+.vertical-nav {
+    margin: 0;
+    padding: 25px;
+    width: 25%;
+    max-width: 250px;
+    background-color: #FFD1A6;
+    height: 100%;
+    /* Full height */
+    position: fixed;
+    /* Make it stick, even on scroll */
+    overflow: auto;
+    /* Enable scrolling if the sidenav has too much content */
+}
+
+.nav-items ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-items a {
+    display: block;
+    color: #152336;
+    text-decoration: none;
+    height: 45px;
+}
+
+.contact-me img {
+    height: 35px;
+    padding-right: 5px;
+}
+
+.logo {
+    height: 125px;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: 64px;
+}
+
+#portrait {
+    width: 365px;
+}
+
+.download {
+    background-color: #FFD1A6;
+    border-radius: 38px;
+    font-family: 'Inter', sans-serif;
+    font: 900;
+    font-size: 20px;
+    color: #152336;
+    padding: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.flexContainer div {
+    margin-right: 1%;
+    width: 45%;
+    padding: 16px;
+}
+
+.project img {
+    width: 424px;
+}
+
+.workGrid {
+    margin-left: 5%;
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "nonprofit" "placeholder";
+}
+
+
+@media only screen and (max-width: 600) {
+    .content {
+        margin-left: 30%;
+    }
+
+    .flexContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .workGrid {
+        margin-left: 5%;
+        display: grid;
+        grid-template-rows: 563px 563px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nonprofit" 
+        "placeholder";
+    }
+}
