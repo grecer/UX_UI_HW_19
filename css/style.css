@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-family: 'Sacramento', cursive;
     font-size: 64px;
@@ -113,7 +117,7 @@ html {
         margin-left: 30%;
     }
 
-    .flexContainer{
+    .flexContainer {
         flex-direction: column;
         width: 100%;
     }
@@ -123,8 +127,8 @@ html {
         display: grid;
         grid-template-rows: 563px 563px;
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        "nonprofit" 
-        "placeholder";
+        grid-template-areas:
+            "nonprofit"
+            "placeholder";
     }
 }

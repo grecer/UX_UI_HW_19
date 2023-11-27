@@ -18,16 +18,16 @@
             <img class="logo" src="images/logo.png">
             <nav class="nav-items">
                 <ul>
-                    <li><a href="#">
+                    <li id="home-link"><a href="#a">
                             <h3>Home</h3>
                         </a></li>
-                    <li><a href="#">
+                    <li id="about-link"><a href="#a">
                             <h3>About</h3>
                         </a></li>
-                    <li><a href="#">
+                    <li id="work-link"><a href="#a">
                             <h3>Work</h3>
                         </a></li>
-                    <li><a href="#">
+                    <li id="contact-link"><a href="#a">
                             <h3>Contact</h3>
                         </a></li>
                 </ul>
@@ -36,10 +36,10 @@
                 <p>Email - gre.cerny@gmail.com</p>
                 <p>Phone - 612.400.4989</p>
                 <p>Savage, MN</p>
-                <a href="#"><img src="images/dribble-icon.png"></a>
-                <a href="#"><img src="images/linkedin-icon.png"></a>
-                <a href="#"><img src="images/instagram-icon.png"></a>
-                <a href="#"><img src="images/facebook-icon.png"></a>
+                <a href="#a"><img src="images/dribble-icon.png"></a>
+                <a href="#a"><img src="images/linkedin-icon.png"></a>
+                <a href="#a"><img src="images/instagram-icon.png"></a>
+                <a href="#a"><img src="images/facebook-icon.png"></a>
             </div>
         </div>
     </header>
@@ -47,7 +47,7 @@
     <!-- Hero -->
     <section class="content">
         <div>
-            <img id="portrait" src="images/portrait.png">
+            <a name="home-section"><img id="portrait" src="images/portrait.png"></a>
             <h1>Hi there, I'm Gretchen.</h1>
             <h3>As a UX/UI Designer, I strive to optimize the usability, accessibilty, and aesthetics
                 of websites to deliver enjoyable and effective interactions for users.</h3>
@@ -57,7 +57,9 @@
 
     <!--  My UX Skills section coded using CSS flex -->
     <section class="content mySkills">
-        <h2>My Skills</h2>
+        <a name="about-section">
+            <h2>My Skills</h2>
+        </a>
         <div class="flexContainer">
             <div>
                 <h3>Inspiration</h3>
@@ -105,24 +107,26 @@
 
     <!-- My Work Section Constructed using CSS Grid -->
     <section class="content myWork">
-        <h2>Projects</h2>
+        <a name="work-section">
+            <h2>Projects</h2>
+        </a>
         <div class="workGrid">
             <div class="project">
-                <a href="#">
+                <a href="#a">
                     <h3>Non-profit Website Redesign -></h3>
                 </a>
-                <a href="#"><img src="images/GfSThumbnail.png"></a>
+                <a href="#a"><img src="images/GfSThumbnail.png"></a>
                 <p>Making a nonprofit website responsive and more accessible to users through a full UX Redesign.</p>
             </div>
             <div class="project">
-                <a href="#">
+                <a href="#a">
                     <h3>Project Title -></h3>
                 </a>
-                <a href="#"><img src="images/BlankProjectThumbnail.png"></a>
+                <a href="#a"><img src="images/BlankProjectThumbnail.png"></a>
                 <p>Second project description would go here, eventually!</p>
             </div>
         </div>
-        <a href="#">
+        <a href="#a">
             <h3>View All Projects -></h3>
         </a>
     </section>
@@ -130,18 +134,23 @@
     <!-- Footer -->
     <footer class="content">
         <div class="contact-me">
-            <h3>Connect with me!</h3>
+            <a name="contact-section">
+                <h3>Connect with me!</h3>
+            </a>
             <p>Email - gre.cerny@gmail.com</p>
             <p>Phone - 612.400.4989</p>
             <p>Savage, MN</p>
-            <a href="#"><img src="images/dribble-icon.png"></a>
-            <a href="#"><img src="images/linkedin-icon.png"></a>
-            <a href="#"><img src="images/instagram-icon.png"></a>
-            <a href="#"><img src="images/facebook-icon.png"></a>
+            <a href="#a"><img src="images/dribble-icon.png"></a>
+            <a href="#a"><img src="images/linkedin-icon.png"></a>
+            <a href="#a"><img src="images/instagram-icon.png"></a>
+            <a href="#a"><img src="images/facebook-icon.png"></a>
         </div>
         <img class="logo" src="images/logo.png">
         <p>Copyright Gretchen Cerny 2023</p>
     </footer>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
 
 </html>
